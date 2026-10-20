@@ -12,7 +12,6 @@
         <li><a href="{{ base }}/">Accueil</a></li>
         <li><a href="{{ base }}/livre">Livres</a></li>
         <li><a href="{{ base }}/auteur">Auteurs</a></li>
-        <!-- <li><a href="{{ base }}/editeur">Éditeurs</a></li> -->
         <li><a href="{{ base }}/categorie">Catégories</a></li>
     </ul>
 </nav>

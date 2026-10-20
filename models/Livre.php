@@ -5,7 +5,6 @@ class Livre extends CRUD
 {
     protected $table = 'livre';
     protected $primaryKey = 'id';
-    // We removed 'isbn' and 'id_editeur', and changed 'annee_publication' to 'annee'
     protected $fillable = ['titre', 'annee', 'prix', 'id_auteur'];
 
     public function selectAllWithRelations()
